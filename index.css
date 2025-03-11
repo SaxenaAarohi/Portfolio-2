@@ -1,8 +1,14 @@
-
+.list{
+    display: flex;
+    list-style-type: none;
+}
 .top ul{
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
+}
+.menu-icon{
+    display: none;
 }
 .top{
     color: white;
@@ -28,7 +34,7 @@ body{
 }
 .mainpage{
     background-color: rgb(24, 67, 83);
-    height: 500px;
+    height: 520px;
 }
 .list>li{
     margin: 10px;
@@ -79,9 +85,10 @@ body{
    
 }
 .skillinfo,.seriesinfo,.eduinfo,.project-info{
-    font-size: 25px;
+    font-size: 15px;
   
 }
+
 .skillcard {
     display: flex;
     flex-wrap: wrap;
@@ -133,6 +140,7 @@ body{
 }
 .pro1{
     background-color: white;
+    height: auto;
 }
 
 .education-videos div{
@@ -172,15 +180,9 @@ body{
     justify-content: center;
 }
 
-.project-videos div iframe{
-    border-radius: 10px;
-    height: 100%;
-    width: 80%;
-}
-
 .project-videos div{
     width: 25%;
-    height: 30vh;
+    height: 300px;
     margin: 5px;
 }
 .conactheading{
