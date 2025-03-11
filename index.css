@@ -1,7 +1,4 @@
-.list{
-    display: flex;
-    list-style-type: none;
-}
+
 .top ul{
     display: flex;
     justify-content: flex-end;
