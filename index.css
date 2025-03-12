@@ -1,14 +1,8 @@
-.list{
-    display: flex;
-    list-style-type: none;
-}
+
 .top ul{
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
-}
-.menu-icon{
-    display: none;
 }
 .top{
     color: white;
@@ -26,14 +20,14 @@
     color: white;
 }
 .top li{
-    padding-left: 20px;
-    font-size: large;
+    padding-left: 50px;
+    font-size: 20px;
 }
 body{
     margin: 0;
 }
 .mainpage{
-    background-color: rgb(24, 67, 83);
+    background-color: rgba(23, 41, 55, 1);
     height: 530px;
 }
 .list>li{
@@ -47,14 +41,22 @@ body{
     color: white;
 }
 .Profile{
-    align-items: center;
-    font-size: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 148px;
+    height: 24px;
     padding-bottom: 10px;
-
+    padding-left: 20px;
+}
+.Profile img{
+    border-radius: 100%;
+    margin-right: 8px;
+    vertical-align: middle;
 }
 .profileimage{
     border-radius: 50%;
     padding-bottom: 30px;
+
 }
 .main{
     display: flex;
@@ -63,7 +65,7 @@ body{
 .left{
     width: 50%;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     padding-left: 5%;
     padding-bottom: 5%;
 }
@@ -76,16 +78,19 @@ body{
     padding-bottom: 25px;
     border-radius: 50%;
 }
+.progre{
+    margin-top: 90px;
+}
 .skills ,.series{
     text-align: center;
     /*background-image: linear-gradient(to right, rgb(215, 204, 140), rgb(179, 179, 235));*/
-    background-image: linear-gradient(to right , #ffdf9a,  #98b3ef);
+    background-image: linear-gradient(to right , #ffffcc,  #ccccff);
    margin-top: -60px;
    padding-top: 10px;
    
 }
 .skillinfo,.seriesinfo,.eduinfo,.project-info{
-    font-size: 15px;
+    font-size: 28px;
   
 }
 
@@ -110,15 +115,16 @@ body{
 .color{
     color: rgb(244, 161, 8);
 }
+
 .button{
-    color: white;
     background-color: rgb(253, 167, 7);
     font-size: 20px;
     padding-left: 15px;
     padding-right: 15px;
     padding: 10px;
-    border-radius: 10px;
-    margin-top: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 310px;
     
 }
 .videos {
@@ -126,7 +132,9 @@ body{
     justify-content: center;
 
 }
-
+.Education{
+    margin-top: 70px;
+}
 .education-videos{
     display: flex;
     justify-content: center;
@@ -161,6 +169,7 @@ body{
     background-color: rgb(9, 42, 62);
     color: white;
     padding-bottom: 50px;
+    margin-top: 30px;
 }
 
 .email-contact{
@@ -179,14 +188,22 @@ body{
     display: flex;
     justify-content: center;
 }
+.projects{
+    margin-top: 90px;
+}
 
 .project-videos div{
     width: 25%;
-    height: 300px;
+    height: 450px;
+    border-radius: 20px;
     margin: 5px;
 }
 .conactheading{
-    font-size: 10px
+    font-size: 4S0px
+}
+.pro1 img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .card {
     width: 360px;
@@ -196,6 +213,9 @@ body{
     overflow: hidden;
     text-align: center;
     margin-left: 20px;
+}
+.video-container{
+    border-radius: 20px;
 }
 .video-container iframe {
     width: 100%;
