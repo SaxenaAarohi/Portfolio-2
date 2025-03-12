@@ -28,7 +28,7 @@ body{
 }
 .mainpage{
     background-color: rgba(23, 41, 55, 1);
-    height: 550px;
+    height: 555px;
 }
 .list>li{
     margin: 10px;
@@ -93,7 +93,7 @@ body{
    
 }
 .skillinfo,.seriesinfo,.eduinfo,.project-info{
-    font-size: 28px;
+    font-size: 20px;
   
 }
 
