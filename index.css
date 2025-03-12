@@ -193,8 +193,9 @@ body{
 }
 
 .project-videos div{
-    width: 25%;
-    height: 450px;
+    width: 27%;
+
+    height: 40%;
     border-radius: 20px;
     margin: 5px;
 }
