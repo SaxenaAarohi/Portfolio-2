@@ -2,11 +2,13 @@
 
 .top ul{
     display: flex;
+    gap: 30px;
     justify-content: flex-end;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 .top{
     color: white;
+  
 }
 
 .button a{
@@ -19,8 +21,15 @@
     display: block;
 }
 .top li{
-  margin-left: 50px;
+      
     font-size: 20px;
+}
+
+.Profile{
+    display: flex;
+    /* padding-bottom: 10px;
+    padding-left: 20px; */
+    /* padding-top: 10px; */
 }
 .resume{
     border: 1px solid #F37021;
@@ -29,15 +38,22 @@
     padding-bottom: 5px;
     border-radius: 8px;
     text-align: center;
-   
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
-    margin: 0;
+   
+    overflow-x: hidden;
+
     font-family: 'Poppins', sans-serif;;
 }
 .mainpage{
     background-color: rgba(23, 41, 55, 1);
     height: 60%;
+    margin: 0;
 }
 
 .list>li{
@@ -51,12 +67,6 @@ body{
     color: white;
 }
 
-.Profile{
-    display: flex;
-    /* padding-bottom: 10px;
-    padding-left: 20px; */
-    padding-top: 10px;
-}
 .name{
     font-size: 16px;
     font-weight: 600;
@@ -85,7 +95,10 @@ body{
     padding-left: 5%;
     padding-bottom: 50px;
 }
-
+.left h3{
+    padding-top: 20px;
+    text-align: left;
+}
 .left h2{
     margin-top: 70px;
 }
@@ -94,8 +107,9 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    padding: 20px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    /* padding: 20px; */
+    padding-bottom: 80px;
     border-radius: 50%;
 }
 .progre{
@@ -109,9 +123,19 @@ body{
    padding-top: 10px;
    
 }
+.skills h1{
+    padding-top: 30px;
+}
+.progre span{
+    color: #F37021;
+}
+.skills span{
+    color: #F37021;
+}
 .skillinfo,.seriesinfo,.eduinfo,.project-info{
     font-size: 1vw;
-  
+    padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 480px) {
@@ -230,12 +254,7 @@ body{
     margin-top: 90px;
 }
 
-.project-videos div{
-    width: 27%;
-    height: 40%;
-    border-radius: 20px;
 
-}
 .conactheading{
     font-size: 4S0px
 }
@@ -269,6 +288,7 @@ body{
 .card-content {
   padding-left: 20px;
     text-align: left;
+    padding-bottom: 30px;
 }
 .project-videos{
     display: flex;
@@ -276,10 +296,16 @@ body{
     margin-left: 0;
   
 }
+.project-videos div{
+    width: 27%;
+
+    border-radius: 20px;
+
+}
 .pro1{
     background-color: white;
     margin-left: 20px;
-    height: 515px;
+    height: auto;
     margin-right: 20px;
 }
 .pro1 img{
@@ -290,12 +316,14 @@ body{
 text-align: left;
 padding-right: 10px;
 padding-left: 30px;
-padding-bottom: 10px;
+padding-bottom: 30px;
+
 }
 .pro1 h1{
     color: #FF8153;
     text-align: left;
 padding-left: 30px;
+padding-top: 30px;
 }
 .card h3 {
     margin: 10px 0;
@@ -306,4 +334,3 @@ padding-left: 30px;
     font-size: 16px;
     color: #666;
 }
-
