@@ -127,6 +127,7 @@ body{
 }
 .skills h1{
     padding-top: 30px;
+    font-size: 2rem;
 }
 .skills{
     display: flex;
